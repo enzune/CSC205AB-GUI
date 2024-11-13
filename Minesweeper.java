@@ -14,12 +14,12 @@ public class Minesweeper {
         JPanel startPanel = new JPanel();
         frame.add(startPanel);
         
-        Button newGame = new Button("New Game"); // TODO: make a new game.
+        Button newGame = new Button("New Game");
         newGame.setPreferredSize(new Dimension(160, 40));
         newGame.setBackground(Color.green);
         newGame.addActionListener(e -> newBttnClicked());
         
-        Button quitButton = new Button("Quit"); // TODO: make it quit.
+        Button quitButton = new Button("Quit");
         quitButton.setPreferredSize(new Dimension(160, 40));
         quitButton.setBackground(Color.red);
         quitButton.addActionListener(e -> quitGame());
