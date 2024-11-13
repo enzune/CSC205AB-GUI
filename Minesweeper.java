@@ -1,3 +1,5 @@
+// File authored by Jorden Magnuson
+// If you make a contribution, don't forget to add your name above.
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
