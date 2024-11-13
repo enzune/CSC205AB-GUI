@@ -6,9 +6,6 @@ import java.awt.event.MouseAdapter;
 
 public class Minesweeper {
 
-    public boolean gameIsLive = false;
-    public boolean quitGame = false;
-
     public static void startPanel(){
         // I make-a-da-frame-a
         JFrame frame = new JFrame("MINESWEEPER");
